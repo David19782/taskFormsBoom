@@ -11,8 +11,18 @@
   </head>
   <body>
     <div class="main">
-      <div class="emoji mb-6">💣🤯💥</div>
-      <button class="button">Boom?</button>
+      <form method = "POST" action="">
+        <label for="ccname">Name: </label>
+        <input type="text" class = "input" autocomplete="additional-name" name = "ccname">
+        <label for="ccname">Card Number: </label>
+        <input type="number" class = "input" autocomplete="additional-name" name = "cardnumber">
+        <label for="cvc">Cvc: </label>
+        <input type="text" class = "input" autocomplete="additional-name" name = "cvc">
+        <label for="cc-exp">CC-exp: </label>
+        <input type="text" class = "input" autocomplete="additional-name" name = "cc-exp">
+        <button type = "submit">Submit</button>
+
+      </form>
     </div>
   </body>
 </html>
