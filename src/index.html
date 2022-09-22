@@ -13,15 +13,14 @@
     <div class="main">
       <form method = "POST">
         <label for="ccname">Name: </label>
-        <input type="text" name = "ccname" class = "input" placeholder="card name" minlength="10" required>
+        <input type="text" name = "ccname" class = "input" placeholder="card name" minlength="10" autocomplete="on" required>
         <label for="ccname">Card Number: </label>
-        <input type="number" name = "cardnumber" class = "input" placeholder = "card number" required>
+        <input type="number" name = "cardnumber" class = "input" placeholder = "card number" autocomplete="on" required>
         <label for="cvc">Cvc: </label>
-        <input type="text" name = "cvc" class = "input"  placeholder="cvc" required>
+        <input type="text" name = "cvc" class = "input"  placeholder="cvc" autocomplete="on" required>
         <label for="cc-exp">CC-exp: </label>
-        <input type="date" name = "cc-exp" class = "input"  placeholder="date" required>
+        <input type="date" name = "cc-exp" class = "input"  placeholder="date" autocomplete="on" required>
         <button type = "submit">Submit</button>
-
       </form>
     </div>
   </body>
